@@ -1,2 +1,2 @@
 # Использование API Github для поиска репозиториев
-![Alt Text](https://github.com/spychel/github_search/blob/master/search.gif)
+![Alt Text](https://github.com/spychel/comment_block/blob/master/result.gif)

@@ -4,6 +4,8 @@ import { errorBloCkHandler } from "./SearchWidget/errorBlockHandler.js";
 const input = document.getElementsByName("search-field")[0];
 const searchButton = document.getElementsByName('search-button')[0];
 
+input.focus();
+
 let timeoutSearchId = null;
 
 input.addEventListener('keyup', onKeyUpEnter);

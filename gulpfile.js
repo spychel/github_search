@@ -38,8 +38,6 @@ gulp.task('watch', function() {
     gulp.watch("src/js/**/*.js", gulp.parallel('scripts'));
 });
 
-
-
 gulp.task('html', function() {
     return gulp.src("src/*.html")
         .pipe(htmlmin({ collapseWhitespace: true }))
@@ -72,4 +70,4 @@ gulp.task('images', function() {
         .pipe(gulp.dest("dist/img"));
 });
 
-gulp.task('default', gulp.parallel('watch', 'server', 'styles', 'scripts', 'fonts', 'icons', 'html', 'images', 'favicon'));
+gulp.task('default', gulp.parallel('watch', 'styles', 'scripts', 'fonts', 'icons', 'html', 'images', 'favicon', 'server'));
